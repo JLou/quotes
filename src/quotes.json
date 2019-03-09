@@ -1,10 +1,12 @@
 [
   {
     "citation": "Elle est BOOOOOOONNE !!",
-    "author": "Xavier MARGAIN"
+    "author": "Xavier MARGAIN",
+    "authorId": "xme"
   },
   {
     "citation": "Je voudrais de la sauce béarnaise, et des haricots verts",
-    "author": "Rémiche Wayne"
+    "author": "Rémiche Wayne",
+    "authorId": "remiche"
   }
 ]

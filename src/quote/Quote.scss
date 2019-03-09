@@ -70,5 +70,9 @@ blockquote:after {
     &:before {
       content: "— ";
     }
+
+    & a:hover {
+      color: rgb(128, 128, 128);
+    }
   }
 }
