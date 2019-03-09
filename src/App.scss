@@ -1,0 +1,22 @@
+.header {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &__logo {
+    width: 200px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+
+  &__title {
+    font-family: "Srisakdi", cursive;
+    font-weight: normal;
+  }
+}
+
+body {
+  font-family: "Roboto", serif;
+}

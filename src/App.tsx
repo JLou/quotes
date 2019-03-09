@@ -1,25 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.scss";
+import Quote from "./quote";
+import quotes from "./quotes.json";
+import icon from "./speech.svg";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+        <header className="header">
+          <img className="header__logo" src={icon} width="200" />
+          <h1 className="header__title">Le meilleur du pire des collegues</h1>
         </header>
+        {quotes.map(q => (
+          <Quote {...q} />
+        ))}
       </div>
     );
   }
